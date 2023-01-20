@@ -8,4 +8,5 @@ public class Boolean_Test {
         System.out.println("x && y = " + (x && y));
         System.out.println("z = " + z);
     
+    }
 }
