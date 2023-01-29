@@ -1,19 +1,21 @@
 import java.util.Scanner;
 
-public class Exercise22 {
+public class Exercise23 {
     public static void main(String[] args) {
-        System.out.print("number 1: ");
-        int a = input.nextInt();
-        System.out.print("number 2: ");
-        int b = input.nextInt();
-        System.out.print("number 3: ");
-        int c = input.nextInt();
-        System.out.print("number 4: ");
-        int d = input.nextInt();
-        System.out.print("number 5: ");
-        int e = input.nextInt();
-        System.out.println("Average of "+ n1+","+n2+","+n3+","+n4+","+n5 + " "+"is"+" "+((+n1+n2+n3+n4+n5)/5));
-
+        Scanner input = new Scanner(System.in);
+        System.out.println("first number");
+        int first = input.nextInt();
+        System.out.println("second number");
+        int second = input.nextInt();
+        System.out.println("third number");
+        int third = input.nextInt();
+        System.out.println("fourth number");
+        int fourth = input.nextInt();
+        System.out.println("fifth number");
+        int fifth = input.nextInt();
+        int average = (first + second + third + fourth + fifth) / 5;
+        System.out.println(
+                " Average of " + first + "," + second + "," + third + "," + fourth + "," + fifth + " is " + average);
     }
 
 }

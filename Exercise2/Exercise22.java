@@ -2,11 +2,12 @@ import java.util.Scanner;
 
 public class Exercise22 {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Input first number:");
-        int number = scan.nextInt();
-        for (int i =1; i <= 12; i++) {
-            System.out.print(number + " x " +i+" = "+number*i);
+        Scanner input = new Scanner(System.in);
+        System.out.println("Input Number");
+        int num = input.nextInt();
+        System.out.println("Input  number: " + num);
+        for (int i = 1; i <= 12; i++) {
+            System.out.println(num + " x " + i + " = " + (num * i));
         }
     }
 }
